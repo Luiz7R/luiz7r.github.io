@@ -1,0 +1,361 @@
+body {
+    background: #16332f no-repeat center top !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.myself {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.badge-sk {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.me {
+    color: rgb(195, 216, 7);
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+.myself-card {
+    max-width: 29rem;
+}
+.myself-info {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.badge-card {
+  max-width: 44rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-dv {
+    max-width: 40rem;
+    margin-left: 2.5rem;
+}
+.badgeport {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    margin-right: 0.7rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    border-radius: 10rem;
+    letter-spacing: 0.05em;
+    background-color: blue;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.badgeport-bg-ye {
+    background-color:rgb(5, 100, 95);
+}
+
+.skill {
+    color: rgb(195, 216, 7);
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+
+.bp {
+  font-size: 15px !important;
+}
+
+span.badge-skills {
+  font-size: 1.15em;
+  margin: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.badgeport {
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bf {
+  background-color: #1d7a5b;
+  color: white;
+}
+
+.bl {
+  background-color: #1d337a;
+  color: white;
+}
+
+.bdev {
+  background-color: #ebdb05;
+  color: black;
+}
+
+.btcode {
+  background-color: #eb6105;
+  color: white;
+}
+
+.bd {
+  background-color: #b41f1f;
+  color: white;
+}
+
+.container {
+    position: relative;
+    height: 500px;
+  }
+  
+  .container .background-image {
+    opacity: 0.6;
+  }
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("cyberpunk-city.jpg");
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+  }
+  
+  .lz {
+      font-size: 80px;
+      color: rgb(216, 221, 221);
+    font-family: 'Merriweather', serif;
+  }
+
+  .op-ye {
+    color: rgb(195, 216, 7);
+  }
+
+  .dev {
+    font-size: 30px;
+    color: rgb(170 243 189);
+    font-family: 'Merriweather', serif;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 1px;
+  }
+  
+  .projects {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bd-fcb {
+    background-color: #4f5b93;
+  }
+
+  .bd-sec {
+    background-color: #061e38;
+  }
+
+
+
+  /* Experience */
+    .experience {
+      margin-top: 2rem;
+    }
+
+    .exp {
+      padding-bottom: 10rem;
+      padding-top: 1rem;
+      margin-left: 15.4rem !important;
+    }
+
+    .link-exp {
+      color: #64ffda !important;
+      border-radius: 0.25rem;
+      max-width: 100px;
+    }
+
+    .link-exp:hover {
+      background-color: #24534d;
+      color: #64ffda;
+    }
+
+    .exp-title {
+      text-align: left;
+      color: rgb(195, 216, 7);
+      margin-left: 22rem !important;
+      font-family: 'Cinzel Decorative', cursive;
+      font-weight: bolder;
+    }
+    .exp-content {
+      color: white;
+      margin-top: 0.55rem;
+    }
+    .exp-company {
+      margin-left: 5rem;
+      margin-right: -3rem;
+    }
+
+    .info-project {
+      color: black;
+      padding-top: 5px;
+    }
+    
+    .carousel-item img {
+      margin: 0 auto; /* this will align the image to center. */
+      /* width: auto;  */
+      /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+      height: 225px;
+      max-height: 225px;
+    }
+
+    .badge-pill:hover {
+      box-shadow: 0px 3px 6px #00ff22, 0px 3px 20px #a0a5eb;
+    }
+
+    .skill-item h4 {
+      margin: 0;
+    }
+    
+    @media (max-width: 576px) {
+      .skill-item {
+        margin-bottom: 20px;
+      }
+    }
+
+
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      min-height: 200px;
+    }
+    
+    .project-item {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      max-height: 255px;
+    }
+    
+    .project-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease-out;
+    }
+    
+    .project-item-img {
+      min-width: 454px;
+      max-width: 454px;
+
+      min-height: 300px;
+      max-height: 300px;
+    }
+    .project-item:hover img {
+      transform: scale(1.1);
+    }
+    
+    .project-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 20px;
+      transform: translateY(100%);
+      transition: transform 0.3s ease-out;
+    }
+    
+    .project-item:hover .project-overlay {
+      transform: translateY(0%);
+    }
+    
+    .project-overlay h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .project-overlay p {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    }
+    
+    .btn:hover {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .whitew {
+      color: white;
+    }
+    
+    .educ {
+      padding-top: 1rem;
+      margin-left: 15.4rem !important;
+    }
+
+    .educ-content {
+      color: white;
+      margin-top: 0.55rem;
+      margin-left: 5.7rem;
+    }
+
+    .yergb {
+      color: rgb(195, 216, 7);
+      display: inline;
+    }
+
+    .socialp {
+      display: inline;
+    }
+    .socialp > a {
+      color: white !important;
+      text-decoration: none !important;
+    }
+    .socialp > a:hover {
+      text-decoration: none !important;
+    }
+
+    .navheader {
+      color: #55c624;
+      background-color: #194436;
+      width: 80%;
+      margin-top: 0.2rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      border-radius: 5px;
+    }
+
+    .logo {
+      color: #55c624;
+      width: 2.2rem;
+    }
+
+    .socialink {
+      text-decoration: none !important;
+    }
