@@ -182,8 +182,14 @@ span.badge-skills {
       margin-left: 15.4rem !important;
     }
 
-    .link-exp {
+    .link-alpesone {
       color: #64ffda !important;
+      border-radius: 0.25rem;
+      max-width: 120px;
+    }
+
+    .link-exp {
+      color: #d1dfdc !important;
       border-radius: 0.25rem;
       max-width: 100px;
     }
@@ -191,6 +197,10 @@ span.badge-skills {
     .link-exp:hover {
       background-color: #24534d;
       color: #64ffda;
+    }
+
+    .exptitle {
+      color: #64ffda !important;
     }
 
     .exp-title {
